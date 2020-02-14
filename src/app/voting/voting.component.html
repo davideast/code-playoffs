@@ -1,1 +1,35 @@
-<p>voting works!</p>
+<cp-header></cp-header>
+
+<cp-container>
+  
+  <cp-section>
+    <cp-large-heading>
+      ROUND ONE
+    </cp-large-heading>
+  </cp-section>
+
+  <cp-section centered="true">
+
+    <div id="selections">
+      <cp-selection-box
+        [selection]="jsSelection"
+        [is-active]="'true'">
+      </cp-selection-box>
+
+      <cp-selection-box [selection]="elmSelection">
+      </cp-selection-box>
+    </div>
+
+  </cp-section>
+
+  <cp-section centered="true">
+    <cp-button type="secondary">
+      VOTE
+    </cp-button>
+  </cp-section>
+
+</cp-container>
+
+<cp-section>
+  <cp-footer></cp-footer>
+</cp-section>
