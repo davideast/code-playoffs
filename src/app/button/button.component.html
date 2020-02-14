@@ -1,0 +1,13 @@
+<button 
+  [ngClass]="themeClass"
+  class="w-full h-14 flex items-center px-8 rounded-md">
+
+    <span *ngIf="imgSrc">
+      <img class="-mb-px" [src]="imgSrc" />
+    </span>
+
+    <span class="text-white px-4 text-xl font-bold">
+      <ng-content></ng-content>
+    </span>
+
+</button>

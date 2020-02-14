@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="242px" viewBox="0 0 258 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>FullBracket</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing---Header" transform="translate(-30.000000, -343.000000)">
+            <g id="FullBracket" transform="translate(30.000000, 342.000000)">
+                <g id="Right-Bracket" transform="translate(173.500000, 120.500000) scale(-1, 1) translate(-173.500000, -120.500000) translate(87.000000, 0.000000)">
+                    <polyline id="Path" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3.81406873 15 41.5515775 15 41.5515775 49 3.81406873 49"></polyline>
+                    <polyline id="Path-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3.81406873 79 41.5515775 79 41.5515775 113 3.81406873 113"></polyline>
+                    <polyline id="Path-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3.81406873 143 41.5515775 143 41.5515775 177 3.81406873 177"></polyline>
+                    <polyline id="Path-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3.81406873 207 41.5515775 207 41.5515775 241 3.81406873 241"></polyline>
+                    <polyline id="Path-2" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="41.5515775 32 79.2890863 32 79.2890863 96 41.5515775 96"></polyline>
+                    <polyline id="Path-2-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="41.5515775 160 79.2890863 160 79.2890863 224 41.5515775 224"></polyline>
+                    <polyline id="Path-3" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="79.2890863 64 117.026595 64 117.026595 192 79.2890863 192"></polyline>
+                    <text id="1Python" transform="translate(19.233631, 6.000000) scale(-1, 1) translate(-19.233631, -6.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0" y="6" fill="#E78365">1</tspan>
+                        <tspan x="4.2" y="6" fill="#F3A838">Python</tspan>
+                    </text>
+                    <text id="4C++" transform="translate(19.233631, 70.000000) scale(-1, 1) translate(-19.233631, -70.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0" y="70" fill="#E78365">4</tspan>
+                        <tspan x="4.2" y="70" fill="#F3A838">C++</tspan>
+                    </text>
+                    <text id="3Java" transform="translate(19.360119, 134.000000) scale(-1, 1) translate(-19.360119, -134.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.126488095" y="134" fill="#E78365">3</tspan>
+                        <tspan x="4.3264881" y="134" fill="#F3A838">Java</tspan>
+                    </text>
+                    <text id="2C#" transform="translate(19.360119, 198.000000) scale(-1, 1) translate(-19.360119, -198.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.126488095" y="198" fill="#E78365">2</tspan>
+                        <tspan x="4.3264881" y="198" fill="#F3A838">C#</tspan>
+                    </text>
+                    <text id="8Go" transform="translate(20.461310, 41.000000) scale(-1, 1) translate(-20.461310, -41.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="2.45535714" y="41" fill="#E78365">8</tspan>
+                        <tspan x="6.65535714" y="41" fill="#F3A838">Go</tspan>
+                    </text>
+                    <text id="5C" transform="translate(20.461310, 105.000000) scale(-1, 1) translate(-20.461310, -105.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="2.45535714" y="105" fill="#E78365">5</tspan>
+                        <tspan x="6.65535714" y="105" fill="#F3A838">C</tspan>
+                    </text>
+                    <text id="6PHP" transform="translate(20.461310, 169.000000) scale(-1, 1) translate(-20.461310, -169.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="2.45535714" y="169" fill="#E78365">6</tspan>
+                        <tspan x="6.65535714" y="169" fill="#F3A838">PHP</tspan>
+                    </text>
+                    <text id="7Ruby" transform="translate(20.587798, 233.000000) scale(-1, 1) translate(-20.587798, -233.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="2.58184524" y="233" fill="#E78365">7</tspan>
+                        <tspan x="6.78184524" y="233" fill="#F3A838">Ruby</tspan>
+                    </text>
+                    <text id="SERVER" transform="translate(85.656250, 128.000000) scale(-1, 1) translate(-85.656250, -128.000000) " font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="10" font-weight="bold" fill="#E78365">
+                        <tspan x="63.65625" y="132">SERVER</tspan>
+                    </text>
+                    <line x1="172.466667" y1="154" x2="149.933333" y2="154" id="Path-5" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+                <g id="Left-Bracket">
+                    <polyline id="Path" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="2.53859745 15 38.6759154 15 38.6759154 49 2.53859745 49"></polyline>
+                    <polyline id="Path-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="2.53859745 79 38.6759154 79 38.6759154 113 2.53859745 113"></polyline>
+                    <polyline id="Path-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="2.53859745 143 38.6759154 143 38.6759154 177 2.53859745 177"></polyline>
+                    <polyline id="Path-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="2.53859745 207 38.6759154 207 38.6759154 241 2.53859745 241"></polyline>
+                    <polyline id="Path-2" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="38.6759154 32 74.8132333 32 74.8132333 96 38.6759154 96"></polyline>
+                    <polyline id="Path-2-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="38.6759154 160 74.8132333 160 74.8132333 224 38.6759154 224"></polyline>
+                    <polyline id="Path-3" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="74.8132333 64 110.950551 64 110.950551 192 74.8132333 192"></polyline>
+                    <text id="6Obj-C" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0" y="168" fill="#E78365">6</tspan>
+                        <tspan x="4.2" y="168" fill="#F3A838">Obj-C</tspan>
+                    </text>
+                    <text id="7Dart" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.8125" y="233" fill="#E78365">7</tspan>
+                        <tspan x="5.0125" y="233" fill="#F3A838">Dart</tspan>
+                    </text>
+                    <text id="1JavaScript" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.453752182" y="6" fill="#E78365">1</tspan>
+                        <tspan x="4.65375218" y="6" fill="#F3A838">JavaScript</tspan>
+                    </text>
+                    <text id="4Swift" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.453752182" y="70" fill="#E78365">4</tspan>
+                        <tspan x="4.65375218" y="70" fill="#F3A838">Swift</tspan>
+                    </text>
+                    <text id="3CSS" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.453752182" y="133" fill="#E78365">3</tspan>
+                        <tspan x="4.65375218" y="133" fill="#F3A838">CSS</tspan>
+                    </text>
+                    <text id="2TypeScript" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.677083333" y="197" fill="#E78365">2</tspan>
+                        <tspan x="4.87708333" y="197" fill="#F3A838">TypeScript</tspan>
+                    </text>
+                    <text id="8Elm" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.453752182" y="41" fill="#E78365">8</tspan>
+                        <tspan x="4.65375218" y="41" fill="#F3A838">Elm</tspan>
+                    </text>
+                    <text id="5Koitlin" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="6" font-weight="bold">
+                        <tspan x="0.453752182" y="104" fill="#E78365">5</tspan>
+                        <tspan x="4.65375218" y="104" fill="#F3A838">Koitlin</tspan>
+                    </text>
+                    <line x1="111.041667" y1="124" x2="128.645833" y2="124" id="Path-4" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <text id="CLIENT" font-family="ZeitungMonoPro-Bold, Zeitung Mono Pro" font-size="10" font-weight="bold" fill="#E78365">
+                        <tspan x="57" y="132">CLIENT</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

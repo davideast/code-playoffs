@@ -5,5 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'code-playoffs';
+  
+  loginUser() {
+    console.log('lets log in');
+  }
+
 }
