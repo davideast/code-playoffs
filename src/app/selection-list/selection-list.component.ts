@@ -17,6 +17,7 @@ export class SelectionListComponent {
 
     // find the other selection and make sure it is inactive
     const seedList = Object.values(this.match);
+    seedList.shift();
     const other = seedList.filter(value => value.name !== selection.name)[0];
     other.active = false;
   }

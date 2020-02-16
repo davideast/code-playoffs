@@ -8,24 +8,11 @@
     </cp-large-heading>
   </cp-section>
 
-  <cp-section centered="true">
-
-    <div id="selections">
-
-      <cp-selection-list
-        (on-selection)="getVote($event)"
-        [match]="match$ | async">
-      </cp-selection-list>
-
-    </div>
-
-  </cp-section>
-
-  <cp-section centered="true">
-    <cp-button type="secondary" (click)="vote($event)">
-      VOTE
-    </cp-button>
-  </cp-section>
+  <cp-selection-round
+    [matches]="store.matches$ | async"
+    (on-selection)="vote($event)">
+      
+  </cp-selection-round>
 
 </cp-container>
 
