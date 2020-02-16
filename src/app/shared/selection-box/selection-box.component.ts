@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostBinding } from '@angular/core';
+import { Component, Input, Output, HostBinding, HostListener, EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
 import { Selection } from '../../types';
 
 @Component({
@@ -6,10 +6,11 @@ import { Selection } from '../../types';
   templateUrl: './selection-box.component.html',
   styleUrls: ['./selection-box.component.css'],
   host: {
-    'class': 'w-full cursor-pointer border-black border-solid border-6 h-30 my-4 flex flex-col my-4 items-center justify-center'
+    'class': `w-full cursor-pointer border-black border-solid 
+    border-6 h-30 my-4 flex flex-col my-4 items-center justify-center`
   },
 })
-export class SelectionBoxComponent implements OnInit {
+export class SelectionBoxComponent {
 
   @Input() selection: Selection;
 
@@ -17,9 +18,11 @@ export class SelectionBoxComponent implements OnInit {
   @HostBinding('class.border-orange-dark')
   active: boolean;
 
-  constructor() { }
+  @Output('on-vote') voteEmitter = new EventEmitter<Selection>();
 
-  ngOnInit() {
+  @HostListener('click') onVote () {
+    this.voteEmitter.emit(this.selection);
   }
+
 
 }

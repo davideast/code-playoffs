@@ -11,19 +11,18 @@
   <cp-section centered="true">
 
     <div id="selections">
-      <cp-selection-box
-        [selection]="jsSelection"
-        [is-active]="'true'">
-      </cp-selection-box>
 
-      <cp-selection-box [selection]="elmSelection">
-      </cp-selection-box>
+      <cp-selection-list
+        (on-selection)="getVote($event)"
+        [match]="match$ | async">
+      </cp-selection-list>
+
     </div>
 
   </cp-section>
 
   <cp-section centered="true">
-    <cp-button type="secondary">
+    <cp-button type="secondary" (click)="vote($event)">
       VOTE
     </cp-button>
   </cp-section>

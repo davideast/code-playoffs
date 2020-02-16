@@ -1,0 +1,13 @@
+<cp-selection-box 
+  *ngIf="match"
+  (on-vote)="getVote($event)" 
+  [selection]="match.higher"
+  [is-active]="match.higher.active">
+</cp-selection-box>
+
+<cp-selection-box   
+  *ngIf="match"
+  (on-vote)="getVote($event)" 
+  [selection]="match.lower"
+  [is-active]="match.lower.active">
+</cp-selection-box>

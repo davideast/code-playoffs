@@ -7,6 +7,7 @@ import { ButtonComponent } from './button/button.component';
 import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
 import { SelectionBoxComponent } from './selection-box/selection-box.component';
+import { SelectionListComponent } from '../selection-list/selection-list.component';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { SelectionBoxComponent } from './selection-box/selection-box.component';
     HeaderComponent, 
     SectionSpacerComponent, 
     LargeHeadingComponent, 
-    ButtonComponent, ContainerComponent, FooterComponent, SelectionBoxComponent
+    ButtonComponent, ContainerComponent, FooterComponent, SelectionBoxComponent, SelectionListComponent
   ],
   imports: [
     CommonModule
@@ -23,7 +24,7 @@ import { SelectionBoxComponent } from './selection-box/selection-box.component';
     HeaderComponent, 
     SectionSpacerComponent, 
     LargeHeadingComponent, 
-    ButtonComponent, ContainerComponent, FooterComponent, SelectionBoxComponent
+    ButtonComponent, ContainerComponent, FooterComponent, SelectionBoxComponent, SelectionListComponent
   ]
 })
 export class SharedModule { }
