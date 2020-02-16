@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Match, Selection } from '../types';
+import { Match, Selection } from '../../types';
 
 @Component({
   selector: 'cp-selection-round',

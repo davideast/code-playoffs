@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Selection, Match } from '../types';
+import { Selection, Match } from '../../types';
 
 @Component({
   selector: 'cp-selection-list',

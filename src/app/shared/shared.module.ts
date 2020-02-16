@@ -7,8 +7,8 @@ import { ButtonComponent } from './button/button.component';
 import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
 import { SelectionBoxComponent } from './selection-box/selection-box.component';
-import { SelectionListComponent } from '../selection-list/selection-list.component';
-import { SelectionRoundComponent } from '../selection-round/selection-round.component';
+import { SelectionListComponent } from './selection-list/selection-list.component';
+import { SelectionRoundComponent } from './selection-round/selection-round.component';
 
 
 @NgModule({
