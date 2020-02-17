@@ -1,5 +1,9 @@
 {
   "hosting": {
-    "public": "dist/code-playoffs"
+    "public": "dist/code-playoffs",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
   }
 }
