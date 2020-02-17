@@ -1,20 +1,11 @@
 
 <cp-section centered="true">
   <div id="selections">
-      <cp-selection-list 
+    <cp-selection-list 
       *ngFor="let match of matches"
-      [match]="match">
+      [match]="match"
+      (on-selection)="vote($event)">
     </cp-selection-list>
   </div>
 </cp-section>
 
-<cp-section centered="true">
-
-  <cp-button 
-    [disabled]="votes.length !== 4" 
-    type="secondary" 
-    (click)="vote($event)">
-    VOTE
-  </cp-button>
-
-</cp-section>

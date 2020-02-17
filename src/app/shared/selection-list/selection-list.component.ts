@@ -16,10 +16,12 @@ export class SelectionListComponent {
     selection.active = !selection.active;
 
     // find the other selection and make sure it is inactive
-    const seedList = Object.values(this.match);
-    seedList.shift();
-    const other = seedList.filter(value => value.name !== selection.name)[0];
-    other.active = false;
+    const { lower, higher } = this.match;
+    const seedList = [lower, higher];
+    const other = seedList
+      .filter(value => value != undefined)
+      .filter(value => value.name !== selection.name)[0];
+    if(other) { other.active = false; }
   }
 
   getVote(selection: Selection) {

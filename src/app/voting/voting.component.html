@@ -4,15 +4,26 @@
   
   <cp-section>
     <cp-large-heading>
-      ROUND ONE
+      VOTE
     </cp-large-heading>
   </cp-section>
 
   <cp-selection-round
     [matches]="store.matches$ | async"
-    (on-selection)="vote($event)">
-      
+    (on-selection)="updateSelections($event)">
   </cp-selection-round>
+
+  <cp-section centered="true">
+
+    <cp-button 
+      [disabled]="selections.length !== (store.matches$ | async).length" 
+      type="secondary" 
+      (click)="vote($event)">
+      VOTE
+    </cp-button>
+  
+  </cp-section>
+  
 
 </cp-container>
 

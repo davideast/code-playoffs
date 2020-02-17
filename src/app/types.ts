@@ -1,11 +1,11 @@
 interface Entry {
   name: string;
   seed: number;
+  active?: boolean;
 }
 
 interface Selection extends Entry {
   votePercentage?: string;
-  active?: boolean;
 }
 
 interface Match {
@@ -20,9 +20,23 @@ interface BracketState {
   selections: Selection[];
 }
 
+interface Vote { 
+  id: string; 
+  higher: number; 
+  lower: number; 
+}
+
+interface StoreState {
+  entries: Entry[],
+  votes: Vote[],
+  selections: Selection[]
+}
+
 export {
   Selection,
   Match,
   Entry,
   BracketState,
+  Vote,
+  StoreState,
 };

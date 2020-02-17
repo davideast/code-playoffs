@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Match, Selection } from '../../types';
 
 @Component({
@@ -13,9 +13,9 @@ export class SelectionRoundComponent {
 
   get votes() {
     return this.matches.map(match => {
-      if(match.lower.active) {
+      if(match.lower && match.lower.active) {
         return match.lower;
-      } else if(match.higher.active) {
+      } else if(match.higher && match.higher.active) {
         return match.higher;
       }
     }).filter(v => v != undefined);
