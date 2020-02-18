@@ -6,6 +6,9 @@ interface Entry {
 
 interface Selection extends Entry {
   votePercentage?: string;
+  voteId?: string;
+  voteFor?: string;
+  match?: Match;
 }
 
 interface Match {
@@ -22,14 +25,36 @@ interface BracketState {
 
 interface Vote { 
   id: string; 
+  uid: string;
+  higherName: string;
+  lowerName: string;
   higher: number; 
   lower: number; 
 }
 
+interface VoteUpdate { 
+  id: string; 
+  uid: string;
+  higherName: string;
+  lowerName: string;
+  voteFor: string;
+}
+
 interface StoreState {
-  entries: Entry[],
-  votes: Vote[],
-  selections: Selection[]
+  entries: Entry[];
+  votes: Vote[];
+  selections: Selection[];
+  user?: User;
+}
+
+interface User { 
+  uid: string; 
+  photoURL: string 
+}
+
+interface Tournament {
+  name: string;
+  seeds: string[];
 }
 
 export {
@@ -39,4 +64,7 @@ export {
   BracketState,
   Vote,
   StoreState,
+  User,
+  Tournament,
+  VoteUpdate,
 };

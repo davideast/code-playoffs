@@ -1,4 +1,7 @@
-<cp-header></cp-header>
+<cp-header
+  [user]="user$ | async"
+  (on-logout)="logout()">
+</cp-header>
 
 <cp-container>
   

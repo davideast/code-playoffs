@@ -1,4 +1,4 @@
-<cp-header></cp-header>
+<cp-header on-logout="logout()"></cp-header>
 
 <cp-container>
 
@@ -13,9 +13,20 @@
   <cp-section centered="true">
 
     <cp-button 
+      (click)="login()"
       type="login"
       [img-src]="'/assets/twitter-logo.svg'">
       LOGIN TO PLAY
+    </cp-button>
+
+  </cp-section>
+
+  <cp-section centered="true">
+
+    <cp-button 
+      (click)="loginAnon()"
+      type="primary">
+      PLAY AS GUEST
     </cp-button>
 
   </cp-section>

@@ -1,4 +1,10 @@
 <div class="h-16 bg-black px-8 flex items-center justify-between">
   <h3 class="text-2xl text-white">&lt;/&gt;</h3>
-  <div class="rounded-full h-8 w-8 bg-white"></div>
+  <div *ngIf="user" class="flex">
+    <button (click)="logout()" class="text-white mr-4">Logout</button>
+    <img *ngIf="user.photoURL"
+      class="rounded-full h-8 w-8 bg-white" 
+      [src]="user.photoURL" 
+      alt="User Photo" />
+  </div>
 </div>

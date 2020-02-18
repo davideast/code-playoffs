@@ -14,6 +14,7 @@ export class SelectionListComponent {
   toggleActiveSelection(selection: Selection) {
     // set the clicked selection to an active state
     selection.active = !selection.active;
+    selection.match = this.match;
 
     // find the other selection and make sure it is inactive
     const { lower, higher } = this.match;
@@ -21,7 +22,13 @@ export class SelectionListComponent {
     const other = seedList
       .filter(value => value != undefined)
       .filter(value => value.name !== selection.name)[0];
-    if(other) { other.active = false; }
+    if(other) { 
+      other.active = false; 
+      let isHigher = higher.name === selection.name;
+      let voteFor = isHigher ? 'higher' : 'lower';
+      selection.voteId = `${higher.name}_${lower.name}`;
+      selection.voteFor = voteFor;
+    }
   }
 
   getVote(selection: Selection) {
